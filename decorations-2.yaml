@@ -1,5 +1,5 @@
 substitutions:
-  device_name: decorations_2
+  device_name: "decorations-2"
   device_description: Decorations 2 Plug
   friendly_name: Decorations 2
   wattage_calibration: 67.6 -> 11.0
