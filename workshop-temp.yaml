@@ -1,5 +1,5 @@
 esphome:
-  name: workshop_temp
+  name: "workshop-temp"
   comment: Workshop Temperature Sensor
   platform: ESP32
   board: esp-wrover-kit

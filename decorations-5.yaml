@@ -1,0 +1,10 @@
+substitutions:
+  device_name: decorations-5
+  device_description: Decorations 5 Plug
+  friendly_name: Decorations 5
+  wattage_calibration: 67.6 -> 11.0
+  amperage_calibration: 0.12 -> 0.08
+  voltage_calibration1: 0.0 -> 0.0
+  voltage_calibration2: 322.4 -> 118.3
+
+<<: !include lib/cloudfreeplug2.yaml
