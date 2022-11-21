@@ -53,6 +53,7 @@ light:
     switch_datapoint: 9
     min_value: 100
     max_value: 1000
+    restore_mode: ALWAYS_OFF
 
 fan:
   - platform: "tuya"
@@ -60,3 +61,4 @@ fan:
     switch_datapoint: 1
     speed_datapoint: 3
     speed_count: 4
+    restore_mode: ALWAYS_OFF

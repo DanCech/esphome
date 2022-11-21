@@ -45,7 +45,12 @@ binary_sensor:
     device_class: power
     pin:
       number: GPIO13
-      inverted: True
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_on: 200ms
     name: ${friendly_name} Button
     on_press:
       - switch.toggle: relay
